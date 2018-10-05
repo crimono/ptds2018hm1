@@ -42,4 +42,7 @@ a <- Sys.time()
 print(paste0("Today is the ", a))
 ```
 
-  
+<span style="color:blue">"V&eacute;rit&eacute; dans un temps, erreur dans un autre.",
+Charles de Montesquieu</span>
+
+
