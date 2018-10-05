@@ -8,6 +8,7 @@ output:
     toc_float: true 
     theme: cerulean
     highlight: tango
+    code folding: hide
 ---
 
 ```{r setup, include=FALSE}
@@ -23,7 +24,7 @@ summary(cars)
 
 ```
 
-## Group Members
+## Group Members {.tabset .tabset-pills}
 
 ### Cristina
 
@@ -44,5 +45,7 @@ print(paste0("Today is the ", a))
 
 <span style="color:blue">"V&eacute;rit&eacute; dans un temps, erreur dans un autre.",
 Charles de Montesquieu</span>
+
+
 
 
