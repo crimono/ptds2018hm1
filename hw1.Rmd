@@ -56,6 +56,26 @@ A **fun fact** about me is that I am super clumsy, I have the ability to drop ev
 
 ### Laura
 
+![Lavaux Tour](Laura_photo.jpg)
+
+I have different passion:
+* Reading: I think it is my greatest passion. I like to enter in new worlds and to live new lifes. 
+* Music: I come from a family of musicians. I don't have a favorite genre, I listen to every type of music.
+* Travel: I like to discover new cities and countries. Moreover, I found beautiful to visit a city where I book that I read was set, in this way I feel part of the story.
+
+A **fun fact** about me is that when I travel I found always (always!!) one of the main attraction of the... with a scaffolding that hides it. So my photos are always ruined by the work in progress.
+
+I am attending the second year of the Master in Management, and this is my timetable for this semester:
+
+Subject | Timetable 
+---|---
+Managerial Decision Making and Negotiation | Tuesday 8.30 
+Programming Tools in Data Science | Tuesday 13.15 
+Unethical Decision Making | Wednesday 8.30 
+Strategy and Development Modes | Wednesday 14.15 
+Business and Human Rights | Thursday 13.15 
+
+
 ### Emil
 
 ### Louis
@@ -117,7 +137,18 @@ var(x)
 
 ---
 
-3. Include the following text in blue: “Vérité dans un temps, erreur dans un autre.”, Charles de Montesquieu
+4. Include the following equation
+
+<img src="https://latex.codecogs.com/gif.latex?\mathbb{E}&space;\left[&space;var&space;\left\{&space;\boldsymbol{\upsilon_1}\left(\boldsymbol{\widehat\theta},&space;n&space;\right)\mid\boldsymbol{\widehat\theta}\right\}&space;\right]&space;=&space;\mathrm{var}&space;\left\{&space;\textbf{v}_1\boldsymbol{\theta_0}&space;,n)&space;\right\}&space;&plus;&space;\mathbb{E}&space;\left[&space;\mathcal{O}_p&space;\left\{&space;\boldsymbol{\mathbf{D}}_1&space;(\boldsymbol{\theta}^*&space;,n&space;)&space;(\boldsymbol{\widehat\theta}&space;-&space;\boldsymbol{\theta}_0),&space;...&space;,&space;\boldsymbol{\mathbf{D}}_p&space;(\boldsymbol{\theta}^*&space;,n&space;)&space;(\boldsymbol{\widehat\theta}&space;-&space;\boldsymbol{\theta}_0&space;)&space;\right\}&space;\right]&space;=&space;\mathrm{var}&space;\{&space;\textbf{v}_1&space;(\boldsymbol{\theta}_0&space;,n&space;)\}&space;&plus;&space;\mathcal{O}_p(n^{-2})" title="\mathbb{E} \left[ var \left\{ \boldsymbol{\upsilon_1}\left(\boldsymbol{\widehat\theta}, n \right)\mid\boldsymbol{\widehat\theta}\right\} \right] = \mathrm{var} \left\{ \textbf{v}_1\boldsymbol{\theta_0} ,n) \right\} + \mathbb{E} \left[ \mathcal{O}_p \left\{ \boldsymbol{\mathbf{D}}_1 (\boldsymbol{\theta}^* ,n ) (\boldsymbol{\widehat\theta} - \boldsymbol{\theta}_0), ... , \boldsymbol{\mathbf{D}}_p (\boldsymbol{\theta}^* ,n ) (\boldsymbol{\widehat\theta} - \boldsymbol{\theta}_0 ) \right\} \right] = \mathrm{var} \{ \textbf{v}_1 (\boldsymbol{\theta}_0 ,n )\} + \mathcal{O}_p(n^{-2})" />
+
+---
+
+5. Include the following in-line equation: 
+
+![equation](https://latex.codecogs.com/gif.latex?\large{&space;\mathbf{A}&space;\equiv&space;[&space;a_{i,j}]_{i,j&space;=&space;1,&space;...&space;,&space;p}&space;})
+---
+
+6. Include the following text in blue: “Vérité dans un temps, erreur dans un autre.”, Charles de Montesquieu
 
 > <span style="color:blue">"V&eacute;rit&eacute; dans un temps, erreur dans 
 > un autre."</span>
