@@ -149,7 +149,7 @@ $(document).ready(function () {
 </style>
 <script>
 $(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
+  window.initializeCodeFolding("show" === "show");
 });
 </script>
 
@@ -287,19 +287,7 @@ div.tocify {
 <h2>Group Members</h2>
 <div id="cristina" class="section level3">
 <h3>Cristina</h3>
-<p>My name is Cristina and I come from Milan in Italy where I am studying Business Analytics and Big Data at Politecnico di Milano.</p>
-<p>The things that I am passionate about are:</p>
-<ul>
-<li>Sports: Volleyball, Skii, Surf, Wakeboard and Pole Dance</li>
-<li>Art: I love reading about art and going to exibitions, expecially about Contemporary Art</li>
-<li>Music: I listen to Rock, Indie-rock and Electronic music and I love going to concerts and festivals</li>
-<li>Travel: I like to discover new culture and meet new people</li>
-</ul>
-<p>A <strong>fun fact</strong> about me is that I am super clumpsy, I can drop everything that I am holding and I hit everything that is around me. So don’t ask me to hold your phone or to take care of something precious if you don’t want it totally smashed :D</p>
-<blockquote>
-<p>“Whenever humanity seems condemned to heaviness, I think I should fly like Perseus into a different space. I don’t mean escaping into dreams or the irrational. I mean that I have to change my approach, look at the world from a different perspective, with a different logic and with fresh methods of cognition and verification.”</p>
-<p><cite>Italo Calvino, , Six Memos For The Next Millennium</cite></p>
-</blockquote>
+<p>My name is Cristina and I come from Milan, Italy where I am studying Business Analytics and Big Data at Politecnico di Milano. Right now I am at HEC in Lausanne as an exchange student within the QTEM master’s network. During this months I will attend the following courses:</p>
 <table>
 <thead>
 <tr class="header">
@@ -326,6 +314,22 @@ div.tocify {
 </tr>
 </tbody>
 </table>
+<p>The things that I am passionate about are:</p>
+<ul>
+<li>Sports: Volleyball, Skii, Surf, Wakeboard</li>
+<li>Art: I love reading about art and going to exibitions, expecially about Contemporary Art</li>
+<li>Music: I listen to Rock, Indie-rock and Electronic music and I love going to concerts and festivals</li>
+<li>Travel: I like discover new cultures and meet new people</li>
+</ul>
+<p>A <strong>fun fact</strong> about me is that I am super clumsy, I have the ability to drop everything I am holding and to hit everything that is around me. So don’t ask me to hold your phone or to take care of something precious if you don’t want it totally smashed :D</p>
+<hr />
+<div id="sec-include" class="section level4">
+<h4>Cristina’s Favourite Quote</h4>
+<blockquote>
+<p>“Whenever humanity seems condemned to heaviness, I think I should fly like Perseus into a different space. I don’t mean escaping into dreams or the irrational. I mean that I have to change my approach, look at the world from a different perspective, with a different logic and with fresh methods of cognition and verification.”</p>
+<p><cite> Italo Calvino, Six Memos For The Next Millennium</cite></p>
+</blockquote>
+</div>
 </div>
 <div id="laura" class="section level3">
 <h3>Laura</h3>
@@ -391,14 +395,27 @@ div.tocify {
 </div>
 <div id="rmarkdown-syntax" class="section level2">
 <h2>RMarkdown Syntax</h2>
+<ol style="list-style-type: decimal">
+<li>Show an example where the chunk option cache = T leads to a misleading answer:</li>
+</ol>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">a &lt;-<span class="st"> </span><span class="kw">Sys.time</span>() 
 <span class="kw">print</span>(<span class="kw">paste0</span>(<span class="st">&quot;Today is the &quot;</span>, a))</code></pre></div>
-<pre><code>## [1] &quot;Today is the 2018-10-05 22:05:10&quot;</code></pre>
+<pre><code>## [1] &quot;Today is the 2018-10-08 17:42:11&quot;</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Include the following text in blue: “Vérité dans un temps, erreur dans un autre.”, Charles de Montesquieu</li>
+</ol>
 <blockquote>
 <p><span style="color:blue">“Vérité dans un temps, erreur dans un autre.”</span></p>
 </blockquote>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">print</span>(<span class="kw">paste0</span>(<span class="st">&quot;Today is the &quot;</span>, <span class="st">&quot;best day of&quot;</span>, <span class="st">&quot; my life&quot;</span>))</code></pre></div>
-<pre><code>## [1] &quot;Today is the best day of my life&quot;</code></pre>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<p><a href="#sec-include">Cristina’s Favourite Quote</a> is taken from: <span class="citation">Calvino (2016)</span></p>
+<div id="refs" class="references">
+<div id="ref-ItaloCalvino">
+<p>Calvino, Italo. 2016. <em>Six Memos for the Next Millennium</em>. Houghton Mifflin Harcourt.</p>
+</div>
+</div>
 </div>
 
 
