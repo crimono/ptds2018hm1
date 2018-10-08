@@ -10,7 +10,6 @@ output:
     highlight: tango
     code_folding: hide
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -27,6 +26,32 @@ summary(cars)
 ## Group Members {.tabset .tabset-pills}
 
 ### Cristina
+My name is Cristina and I am en exchange student from Milan in Italy where I am studying Business Analytics and Big Data at Politecnico di Milano.
+
+The things that I am passionate about are:
+
+* Sports: Volleyball, Skii, Surf, Wakeboard and Pole Dance
+* Art: I love reading about art and going to exibitions, expecially about Contemporary Art
+* Music: I listen to Rock, Indie-rock and Electronic music and I love going to concerts and festivals
+* Travel: I like to discover new culture and meet new people
+
+A **fun fact** about me is that I am super clumpsy, I can drop everything that I am holding and I hit everything that is around me. So don't ask me to hold your phone or to take care of something precious if you don't want it totally smashed :D
+
+
+
+> "Whenever humanity seems condemned to heaviness, I think I should fly like Perseus into a different space. I don’t mean escaping into dreams or the irrational. I mean that I have to change my approach, look at the world from a different perspective, with a different logic and with fresh methods of cognition and verification."
+>
+> <cite>Italo Calvino, , Six Memos For The Next Millennium</cite>
+
+
+
+Class | Time 
+--- | --- 
+Programming Tools in Data Science | Tueseday 1:15 pm
+Computational Tools for Actuaries | Thuesday 8:30 am
+Conceptual Modelling for Business Analytics | Thuesday 1:30 pm
+Data Analytics for Decision Making | Friday 8:30 am
+
 
 ### Laura
 
