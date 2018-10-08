@@ -8,7 +8,7 @@ output:
     toc_float: true 
     theme: cerulean
     highlight: tango
-    code folding: hide
+    code_folding: hide
 ---
 
 ```{r setup, include=FALSE}
@@ -34,6 +34,42 @@ summary(cars)
 
 ### Louis
 
+![Enjoying the Swiss mountains](IMG_1400.jpg)
+
+---
+
+I'll say yes to anything you offer me to do but I am particularly fond of
+
+* Theatre 
+* Running 
+* Classical music
+    - Brams
+    - Litz
+    - Beethoven
+* Tennis 
+ 
+
+I am also very good at learning new languages and therefore enjoy to learn new ones. 
+
+A **fun fact** about me is that my grandpa has written an encyclopedia of 18 
+volumes about the European litterature.
+
+
+> "Ce que les gens ne peuvent pas comprendre leur fait peur, et ce qui leur fait
+peur ils veulent le d&eacute;truire"
+>
+> <cite>Werber, L'Ultime Secret</cite>
+
+
+
+Class | Time 
+--- | --- 
+Data Mining | Monday 8:30 am
+Programming Tools in Data Science | Tueseday 1:15 pm
+Machine Learning in Business Analytics | Wednesday 1:15 pm
+Optimization Methods in Business Analytics | Friday 3:15 pm
+
+
 ### Federico
 
 ## RMarkdown Syntax
@@ -43,9 +79,12 @@ a <- Sys.time()
 print(paste0("Today is the ", a))
 ```
 
-<span style="color:blue">"V&eacute;rit&eacute; dans un temps, erreur dans un autre.",
-Charles de Montesquieu</span>
+> <span style="color:blue">"V&eacute;rit&eacute; dans un temps, erreur dans 
+> un autre."</span>
 
 
+```{r}
+print(paste0("Today is the ", "best day of", " my life"))
+```
 
 
