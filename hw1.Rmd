@@ -50,7 +50,7 @@ A **fun fact** about me is that I am super clumsy, I have the ability to drop ev
 
 #### Cristina's Favourite Quote {#sec-include}
 
-> "Whenever humanity seems condemned to heaviness, I think I should fly like Perseus into a different space. I don’t mean escaping into dreams or the irrational. I mean that I have to change my approach, look at the world from a different perspective, with a different logic and with fresh methods of cognition and verification."
+> "Whenever humanity seems condemned to heaviness, I think I should fly like Perseus into a different space. I don???t mean escaping into dreams or the irrational. I mean that I have to change my approach, look at the world from a different perspective, with a different logic and with fresh methods of cognition and verification."
 >
 > <cite>  Italo Calvino, Six Memos For The Next Millennium</cite>
 
@@ -99,7 +99,8 @@ I'll say yes to anything you offer me to do but I am particularly fond of
 * Tennis 
  
 
-I am also very good at learning new languages and therefore enjoy to learn new ones. 
+I am also very good at learning new languages and therefore enjoy to learn new 
+ones. 
 
 A **fun fact** about me is that my grandpa has written an encyclopedia of 18 
 volumes about the European litterature.
@@ -174,7 +175,8 @@ var(x)
 ![equation](https://latex.codecogs.com/gif.latex?\large{&space;\mathbf{A}&space;\equiv&space;[&space;a_{i,j}]_{i,j&space;=&space;1,&space;...&space;,&space;p}&space;})
 ---
 
-6. Include the following text in blue: “Vérité dans un temps, erreur dans un autre.”, Charles de Montesquieu
+6. Include the following text in blue: V&acute;rit&acute; dans un temps, erreur
+dans un autre, Charles de Montesquieu
 
 > <span style="color:blue">"V&eacute;rit&eacute; dans un temps, erreur dans 
 > un autre."</span>
@@ -184,4 +186,6 @@ var(x)
 
 [Cristina's Favourite Quote](#sec-include) is taken from: 
 @ItaloCalvino
+
+@werber2010ultime
 
