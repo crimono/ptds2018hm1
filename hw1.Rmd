@@ -8,7 +8,8 @@ output:
     toc_float: true 
     theme: cerulean
     highlight: tango
-    code_folding: hide
+    code_folding: show
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -16,8 +17,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Introduction
-
-
 
 ```{r cars}
 summary(cars)
@@ -28,7 +27,58 @@ summary(cars)
 
 ### Cristina
 
+My name is Cristina and I come from Milan, Italy where I am studying Business Analytics and Big Data at Politecnico di Milano.
+Right now I am at HEC in Lausanne as an exchange student within the QTEM master's network. During this months I will attend the following courses:
+
+Class | Time 
+--- | --- 
+Programming Tools in Data Science | Tueseday 1:15 pm
+Computational Tools for Actuaries | Thuesday 8:30 am
+Conceptual Modelling for Business Analytics | Thuesday 1:30 pm
+Data Analytics for Decision Making | Friday 8:30 am
+
+The things that I am passionate about are:
+
+* Sports: Volleyball, Skii, Surf, Wakeboard 
+* Art: I love reading about art and going to exibitions, expecially about Contemporary Art
+* Music: I listen to Rock, Indie-rock and Electronic music and I love going to concerts and festivals
+* Travel: I like discover new cultures and meet new people
+
+A **fun fact** about me is that I am super clumsy, I have the ability to drop everything I am holding and to hit everything that is around me. So don't ask me to hold your phone or to take care of something precious if you don't want it totally smashed :D
+
+---
+
+#### Cristina's Favourite Quote {#sec-include}
+
+> "Whenever humanity seems condemned to heaviness, I think I should fly like Perseus into a different space. I don’t mean escaping into dreams or the irrational. I mean that I have to change my approach, look at the world from a different perspective, with a different logic and with fresh methods of cognition and verification."
+>
+> <cite>  Italo Calvino, Six Memos For The Next Millennium</cite>
+
 ### Laura
+
+![Lavaux Tour](Laura_photo.jpg)
+
+I have different passion:
+* Reading: I think it is my greatest passion. I like to enter in new worlds and to live new lifes. 
+* Music: I come from a family of musicians. I don't have a favorite genre, I listen to every type of music.
+* Travel: I like to discover new cities and countries. Moreover, I found beautiful to visit a city where I book that I read was set, in this way I feel part of the story.
+
+A **fun fact** about me is that when I travel I found always (always!!) one of the main attraction of the... with a scaffolding that hides it. So my photos are always ruined by the work in progress.
+
+> Very little is needed to make a happy life; it is all within yourself, in your way of thinking. 
+>
+> <cite> Marcus Aurelius </cite>
+
+I am attending the second year of the Master in Management, and this is my timetable for this semester:
+
+Subject | Timetable 
+---|---
+Managerial Decision Making and Negotiation | Tuesday 8.30 
+Programming Tools in Data Science | Tuesday 13.15 
+Unethical Decision Making | Wednesday 8.30 
+Strategy and Development Modes | Wednesday 14.15 
+Business and Human Rights | Thursday 13.15 
+
 
 ### Emil
 
@@ -54,11 +104,10 @@ I am also very good at learning new languages and therefore enjoy to learn new o
 A **fun fact** about me is that my grandpa has written an encyclopedia of 18 
 volumes about the European litterature.
 
-
 > "Ce que les gens ne peuvent pas comprendre leur fait peur, et ce qui leur fait
-peur ils veulent le d&eacute;truire"
+peur ils veulent le d&eacute;truire" 
 >
-> <cite>Werber, L'Ultime Secret</cite>
+> <cite>Werber, L'Ultime Secret</cite> 
 
 
 
@@ -73,18 +122,44 @@ Optimization Methods in Business Analytics | Friday 3:15 pm
 ### Federico
 
 ## RMarkdown Syntax
-  
+
+1. Show an example where the chunk option cache = T leads to a misleading answer:
+
 ```{r, cache = TRUE}
 a <- Sys.time() 
 print(paste0("Today is the ", a))
 ```
+---
+2. Simulate 100 random samples from a standard normal distribution using the function rnorm(). Store these 100 values in a vector called x. Then, compute the empirical median, mean and variance of x. Are these results different from 0, 0 and 1 (their respective theoretical values)? Is this result surprising? Justify your answer.
+
+```{r,include=TRUE}
+x <- rnorm(n = 100)
+median(x)
+mean(x)
+var(x)
+```
+
+---
+
+4. Include the following equation
+
+<img src="https://latex.codecogs.com/gif.latex?\mathbb{E}&space;\left[&space;var&space;\left\{&space;\boldsymbol{\upsilon_1}\left(\boldsymbol{\widehat\theta},&space;n&space;\right)\mid\boldsymbol{\widehat\theta}\right\}&space;\right]&space;=&space;\mathrm{var}&space;\left\{&space;\textbf{v}_1\boldsymbol{\theta_0}&space;,n)&space;\right\}&space;&plus;&space;\mathbb{E}&space;\left[&space;\mathcal{O}_p&space;\left\{&space;\boldsymbol{\mathbf{D}}_1&space;(\boldsymbol{\theta}^*&space;,n&space;)&space;(\boldsymbol{\widehat\theta}&space;-&space;\boldsymbol{\theta}_0),&space;...&space;,&space;\boldsymbol{\mathbf{D}}_p&space;(\boldsymbol{\theta}^*&space;,n&space;)&space;(\boldsymbol{\widehat\theta}&space;-&space;\boldsymbol{\theta}_0&space;)&space;\right\}&space;\right]&space;=&space;\mathrm{var}&space;\{&space;\textbf{v}_1&space;(\boldsymbol{\theta}_0&space;,n&space;)\}&space;&plus;&space;\mathcal{O}_p(n^{-2})" title="\mathbb{E} \left[ var \left\{ \boldsymbol{\upsilon_1}\left(\boldsymbol{\widehat\theta}, n \right)\mid\boldsymbol{\widehat\theta}\right\} \right] = \mathrm{var} \left\{ \textbf{v}_1\boldsymbol{\theta_0} ,n) \right\} + \mathbb{E} \left[ \mathcal{O}_p \left\{ \boldsymbol{\mathbf{D}}_1 (\boldsymbol{\theta}^* ,n ) (\boldsymbol{\widehat\theta} - \boldsymbol{\theta}_0), ... , \boldsymbol{\mathbf{D}}_p (\boldsymbol{\theta}^* ,n ) (\boldsymbol{\widehat\theta} - \boldsymbol{\theta}_0 ) \right\} \right] = \mathrm{var} \{ \textbf{v}_1 (\boldsymbol{\theta}_0 ,n )\} + \mathcal{O}_p(n^{-2})" />
+
+---
+
+5. Include the following in-line equation: 
+
+![equation](https://latex.codecogs.com/gif.latex?\large{&space;\mathbf{A}&space;\equiv&space;[&space;a_{i,j}]_{i,j&space;=&space;1,&space;...&space;,&space;p}&space;})
+---
+
+6. Include the following text in blue: “Vérité dans un temps, erreur dans un autre.”, Charles de Montesquieu
 
 > <span style="color:blue">"V&eacute;rit&eacute; dans un temps, erreur dans 
 > un autre."</span>
 
 
-```{r}
-print(paste0("Today is the ", "best day of", " my life"))
-```
+## References
 
+[Cristina's Favourite Quote](#sec-include) is taken from: 
+@ItaloCalvino
 
