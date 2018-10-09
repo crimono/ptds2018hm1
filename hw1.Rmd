@@ -8,20 +8,19 @@ output:
     toc_float: true 
     theme: cerulean
     highlight: tango
-    code_folding: show
+    code_folding: hide
 bibliography: bibliography.bib
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, comment= NA}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Introduction
 
-```{r cars}
-summary(cars)
-
-```
+<video width="320" height="240" controls>
+  <source src="video.mpg" type="video/mpg">
+</video>
 
 ## Group Members {.tabset .tabset-pills}
 
@@ -126,26 +125,87 @@ Optimization Methods in Business Analytics | Friday 3:15 pm
 
 1. Show an example where the chunk option cache = T leads to a misleading answer:
 
-```{r, cache = TRUE}
+```{r, cache = TRUE, comment= NA}
 a <- Sys.time() 
 print(paste0("Today is the ", a))
 ```
 ---
-2. Simulate 100 random samples from a standard normal distribution using the function rnorm(). Store these 100 values in a vector called x. Then, compute the empirical median, mean and variance of x. Are these results different from 0, 0 and 1 (their respective theoretical values)? Is this result surprising? Justify your answer.
 
-```{r,include=TRUE}
+
+2. Simulate 100 random samples from a standard normal distribution <span id="dots">...</span><span id="more">using the function rnorm(). Store these 100 values in a vector called x. Then, compute the empirical median, mean and variance of x. Are these results different from 0, 0 and 1 (their respective theoretical values)? Is this result surprising? Justify your answer.</span>
+<button class="button" onclick="myFunction()" id="myBtn">More info</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "More info"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Less info"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<style> #more {display: none;} </style>
+
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+```{r,include=TRUE, comment= NA}
 x <- rnorm(n = 100)
 median(x)
 mean(x)
 var(x)
 ```
-
 ---
-
 4. Include the following equation
 
 <img src="https://latex.codecogs.com/gif.latex?\mathbb{E}&space;\left[&space;var&space;\left\{&space;\boldsymbol{\upsilon_1}\left(\boldsymbol{\widehat\theta},&space;n&space;\right)\mid\boldsymbol{\widehat\theta}\right\}&space;\right]&space;=&space;\mathrm{var}&space;\left\{&space;\textbf{v}_1\boldsymbol{\theta_0}&space;,n)&space;\right\}&space;&plus;&space;\mathbb{E}&space;\left[&space;\mathcal{O}_p&space;\left\{&space;\boldsymbol{\mathbf{D}}_1&space;(\boldsymbol{\theta}^*&space;,n&space;)&space;(\boldsymbol{\widehat\theta}&space;-&space;\boldsymbol{\theta}_0),&space;...&space;,&space;\boldsymbol{\mathbf{D}}_p&space;(\boldsymbol{\theta}^*&space;,n&space;)&space;(\boldsymbol{\widehat\theta}&space;-&space;\boldsymbol{\theta}_0&space;)&space;\right\}&space;\right]&space;=&space;\mathrm{var}&space;\{&space;\textbf{v}_1&space;(\boldsymbol{\theta}_0&space;,n&space;)\}&space;&plus;&space;\mathcal{O}_p(n^{-2})" title="\mathbb{E} \left[ var \left\{ \boldsymbol{\upsilon_1}\left(\boldsymbol{\widehat\theta}, n \right)\mid\boldsymbol{\widehat\theta}\right\} \right] = \mathrm{var} \left\{ \textbf{v}_1\boldsymbol{\theta_0} ,n) \right\} + \mathbb{E} \left[ \mathcal{O}_p \left\{ \boldsymbol{\mathbf{D}}_1 (\boldsymbol{\theta}^* ,n ) (\boldsymbol{\widehat\theta} - \boldsymbol{\theta}_0), ... , \boldsymbol{\mathbf{D}}_p (\boldsymbol{\theta}^* ,n ) (\boldsymbol{\widehat\theta} - \boldsymbol{\theta}_0 ) \right\} \right] = \mathrm{var} \{ \textbf{v}_1 (\boldsymbol{\theta}_0 ,n )\} + \mathcal{O}_p(n^{-2})" />
-
 ---
 
 5. Include the following in-line equation: 
@@ -153,17 +213,29 @@ var(x)
 ![equation](https://latex.codecogs.com/gif.latex?\large{&space;\mathbf{A}&space;\equiv&space;[&space;a_{i,j}]_{i,j&space;=&space;1,&space;...&space;,&space;p}&space;})
 ---
 
-6. Include the following text in blue: V&acute;rit&acute; dans un temps, erreur
-dans un autre, Charles de Montesquieu
+6. Include the following text in blue: "V&eacute;rit&eacute; dans un temps, erreur
+dans un autre", Charles de Montesquieu
 
 > <span style="color:blue">"V&eacute;rit&eacute; dans un temps, erreur dans 
 > un autre."</span>
+
+<style>
+div.blue pre { background-color:lightblue; }
+div.blue pre.r { background-color:lightblue; }
+</style>
+
+<div class = "blue">
+```{r bluecars, comment= NA}
+summary(cars)
+```
+</div>
+---
+
 
 
 ## References
 
 [Cristina's Favourite Quote](#sec-include) is taken from: 
 @ItaloCalvino
-
 @werber2010ultime
 
