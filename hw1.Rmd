@@ -35,9 +35,11 @@ video {
   <source src="video.mpg" type="video/mpg" class="center">
 </video>
 
-
-
 <p style="text-align:right;">... each in their own language</p>
+
+As you can see, our group is awesome. We are three exchange students and two full-degree students. Three Italians, a Belgian and a Dane. No Swiss, but one French-speaking.
+
+We have structured our solution so that everybody has done their own part and then we divided the remaining parts in the group so that everybody could contribute. The work has been managed through Github with limited conflicts.
 
 ## Group Members {.tabset .tabset-pills}
 
@@ -102,6 +104,8 @@ Business and Human Rights | Thursday 13.15
 
 My name is Emil and I am on exchange at HEC Lausanne this semester. Originally, I am on my 2nd you of Msc in Business Administration and Information Systems from Copenhagen Business School.
 
+![Emil thinking he is super important](Emil.jpg)
+
 I generally find it easy to get passionate about vastly different things, but it always comes back to..
 
 * Football, which allows me to chill with mates, exercise and compete at the same time
@@ -122,6 +126,8 @@ I generally find it easy to get passionate about vastly different things, but it
  
 A **fun fact** about me is that my grandpa hasn't written an encyclopedia of 18 
 volumes about the European litterature. Oh, and I don't drink coffe (what?!).
+
+This is my favorite qoute. You should try to translate it [here.](https://translate.google.dk/#da/en/Verden%20har%20brug%20for%20flere%20ydmyge%20genier.%20Der%20er%20efterh%C3%A5nden%20for%20f%C3%A5%20af%20os)
 
 > "Verden har brug for flere ydmyge genier. Der er efterhånden for få af os." 
 >
@@ -320,4 +326,5 @@ summary(cars)
 [Cristina's Favourite Quote](#sec-include) is taken from: 
 @ItaloCalvino
 @werber2010ultime
+@Drillo2010
 
