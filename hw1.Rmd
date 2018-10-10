@@ -76,12 +76,14 @@ A **fun fact** about me is that I am super clumsy, I have the ability to drop ev
 
 ![Lavaux Tour](Laura_photo.jpg)
 
-I have different passion:
-* Reading: I think it is my greatest passion. I like to enter in new worlds and to live new lifes. 
-* Music: I come from a family of musicians. I don't have a favorite genre, I listen to every type of music.
-* Travel: I like to discover new cities and countries. Moreover, I found beautiful to visit a city where I book that I read was set, in this way I feel part of the story.
 
-A **fun fact** about me is that when I travel I found always (always!!) one of the main attraction of the... with a scaffolding that hides it. So my photos are always ruined by the work in progress.
+I have different passions:
+
+* Reading: I think it is my greatest passion. I like to enter in new worlds and to live new lifes.
+* Music: I come from a family of musicians. I don't have a favorite genre, I listen to every type of music.
+* Travel: I like to discover new cities and countries. Moreover, I found beautiful to visit a city where a book that I read was set, in this way I feel part of the story
+
+A **fun fact** about me is that when I travel I found always (always!!) one of the main attraction of the city with a scaffolding that hides it. So my photos are always ruined by the work in progress.
 
 > Very little is needed to make a happy life; it is all within yourself, in your way of thinking. 
 >
@@ -129,7 +131,7 @@ volumes about the European litterature. Oh, and I don't drink coffe (what?!).
 
 This is my favorite qoute. You should try to translate it [here.](https://translate.google.dk/#da/en/Verden%20har%20brug%20for%20flere%20ydmyge%20genier.%20Der%20er%20efterh%C3%A5nden%20for%20f%C3%A5%20af%20os)
 
-> "Verden har brug for flere ydmyge genier. Der er efterhånden for få af os." 
+> "Verden har brug for flere ydmyge genier. Der er efterh?nden for f? af os." 
 >
 > <p style="text-align:right;"><cite>Drillo</cite></p>
 
@@ -222,6 +224,20 @@ mean(x)
 var(x)
 ```
 ---
+
+$$\mathbb{E} \left[ var \left\{ \boldsymbol{\upsilon_1} 
+\left(\boldsymbol{\widehat\theta}, n \right) \mid \boldsymbol{\widehat\theta} 
+\right\} \right] = 
+\mathrm{var} \left\{ \textbf{v}_1 (\boldsymbol{\theta_0} ,n) \right\} + 
+\mathbb{E} \left[ \mathcal{O_p} \left\{ \boldsymbol{\mathbf{D}}_1 
+(\boldsymbol{\theta}^* ,n ) (\boldsymbol{\widehat\theta} - \boldsymbol{\theta}_0)
+, ... , \boldsymbol{\mathbf{D}}_p (\boldsymbol{\theta}^* ,n ) 
+(\boldsymbol{\widehat\theta} - \boldsymbol{\theta}_0 ) \right\} \right] 
+= \mathrm{var} \{ \textbf{v}_1 (\boldsymbol{\theta}_0 ,n )\} + \mathcal{O_p}(n^{-2})$$
+
+---
+
+$$ \large{ \mathbf{A} \equiv [ a_{i,j}]_{i,j = 1, ... , p} } $$
 
 6. Include the following text in blue: "V&eacute;rit&eacute; dans un temps, erreur
 dans un autre", Charles de Montesquieu
@@ -327,4 +343,5 @@ summary(cars)
 @ItaloCalvino
 @werber2010ultime
 @Drillo2010
+@MarcusAurelius
 
