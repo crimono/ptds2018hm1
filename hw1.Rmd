@@ -223,7 +223,8 @@ median(x)
 mean(x)
 var(x)
 ```
----
+
+4. Inlcude the follwoing equation:
 
 $$\mathbb{E} \left[ var \left\{ \boldsymbol{\upsilon_1} 
 \left(\boldsymbol{\widehat\theta}, n \right) \mid \boldsymbol{\widehat\theta} 
@@ -235,7 +236,8 @@ $$\mathbb{E} \left[ var \left\{ \boldsymbol{\upsilon_1}
 (\boldsymbol{\widehat\theta} - \boldsymbol{\theta}_0 ) \right\} \right] 
 = \mathrm{var} \{ \textbf{v}_1 (\boldsymbol{\theta}_0 ,n )\} + \mathcal{O_p}(n^{-2})$$
 
----
+
+5. Include the following in-line equation:
 
 $$ \large{ \mathbf{A} \equiv [ a_{i,j}]_{i,j = 1, ... , p} } $$
 
@@ -244,6 +246,7 @@ dans un autre", Charles de Montesquieu
 
 <p style="text-align:center;"><span style="color:blue">"V&eacute;rit&eacute; 
 dans un temps, erreur dans un autre.", *Charles de Montesquieu*</span></p>
+
 
 7. Include a &quot;More info&quot; button with hide/unhide functionality.
 
@@ -317,7 +320,6 @@ function myFunction() {
   right: 0;
 }
 </style>
-
 
 <br>
 
