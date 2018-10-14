@@ -232,7 +232,7 @@ There is no guarantee that the mean will be exactly 0, but statistically it shou
 hist(x)
 ```
 
-4. Inlcude the folling equation:
+4. Inlcude the following equation:
 
 $$\mathbb{E} \left[ var \left\{ \boldsymbol{\upsilon_1} 
 \left(\boldsymbol{\widehat\theta}, n \right) \mid \boldsymbol{\widehat\theta} 
