@@ -44,6 +44,8 @@ We have structured our solution so that everybody has done their own part and th
 ## Group Members {.tabset .tabset-pills}
 
 ### Cristina
+![Charles Kuonen Suspension Bridge in Randa](Cristina.jpg)
+
 
 My name is Cristina and I come from Milan, Italy where I am studying Business Analytics and Big Data at Politecnico di Milano.
 Right now I am at HEC in Lausanne as an exchange student within the QTEM master's network. During this months I will attend the following courses:
@@ -64,11 +66,7 @@ The things that I am passionate about are:
 
 A **fun fact** about me is that I am super clumsy, I have the ability to drop everything I am holding and to hit everything that is around me. So don't ask me to hold your phone or to take care of something precious if you don't want it totally smashed :D
 
----
-
-#### Cristina's Favourite Quote {#sec-include}
-
-> "Whenever humanity seems condemned to heaviness, I think I should fly like Perseus into a different space. I don???t mean escaping into dreams or the irrational. I mean that I have to change my approach, look at the world from a different perspective, with a different logic and with fresh methods of cognition and verification."
+> "Whenever humanity seems condemned to heaviness, I think I should fly like Perseus into a different space. I do not mean escaping into dreams or the irrational. I mean that I have to change my approach, look at the world from a different perspective, with a different logic and with fresh methods of cognition and verification."
 >
 > <p style="text-align:right;"><cite>Italo Calvino, Six Memos For The Next Millennium</cite></p>
 
@@ -185,6 +183,7 @@ Optimization Methods in Business Analytics | Friday 3:15 pm
 ![photo in Rhodes](photo2018.jpg)
 
 I dedicate my spare time to some hobbies:
+
 * practice sports, like tennis, skiing and swimming
 * read poems, and sometimes learn them by heart
 * travelling, preferably by car, since I love driving
@@ -194,7 +193,7 @@ I dedicate my spare time to some hobbies:
 > recta in triclinium ire.
 > Vinus mihi in cerebrum abiit.
 >
-> <p style="text-align:right;"><cite>Petronius<\cite></p>
+> <p style="text-align:right;"><cite>Petronius</cite></p>
 
 Subject | Time
 ---|---
@@ -224,7 +223,16 @@ mean(x)
 var(x)
 ```
 
-4. Inlcude the follwoing equation:
+Rnorm gives a random sample of 100 values from distribution mean = 0 and sd = 1. Because it is random, the actual values of mean, median & var depend on which particular values it gets back from the randomization. 
+There is no guarantee that the mean will be exactly 0, but statistically it should converge to 0 using larger sample sizes.
+
+3. Include a graph showing the histogram of x (make sure to include a caption to this figure). You can use the R function hist() or the ggplot2 function.
+
+```{r, echo = TRUE, fig.width = 5, fig.height = 5, fig.align = TRUE}
+hist(x)
+```
+
+4. Inlcude the folling equation:
 
 $$\mathbb{E} \left[ var \left\{ \boldsymbol{\upsilon_1} 
 \left(\boldsymbol{\widehat\theta}, n \right) \mid \boldsymbol{\widehat\theta} 
@@ -239,7 +247,7 @@ $$\mathbb{E} \left[ var \left\{ \boldsymbol{\upsilon_1}
 
 5. Include the following in-line equation:
 
-$$ \large{ \mathbf{A} \equiv [ a_{i,j}]_{i,j = 1, ... , p} } $$
+$\large{ \mathbf{A} \equiv [ a_{i,j}]_{i,j = 1, ... , p} }$
 
 6. Include the following text in blue: "V&eacute;rit&eacute; dans un temps, erreur
 dans un autre", Charles de Montesquieu
@@ -341,7 +349,6 @@ summary(cars)
 
 ## References
 
-[Cristina's Favourite Quote](#sec-include) is taken from: 
 @ItaloCalvino
 @werber2010ultime
 @Drillo2010
