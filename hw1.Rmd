@@ -180,6 +180,10 @@ Optimization Methods in Business Analytics | Friday 3:15 pm
 
 ### Federico
 
+Hi! My name is Federico and I come from Como, in Italy.
+I did my Bachelor in Lugano and now I am attending a master in Lausanne.
+I study management but I have other interests, such as literature and politics.
+
 ![photo in Rhodes](photo2018.jpg)
 
 I dedicate my spare time to some hobbies:
@@ -187,6 +191,9 @@ I dedicate my spare time to some hobbies:
 * practice sports, like tennis, skiing and swimming
 * read poems, and sometimes learn them by heart
 * travelling, preferably by car, since I love driving
+
+A **fun fact** about me is that if I drink coke while I am tired, 
+I literally start to rave. Please, keep me far from a can of coke!
 
 > dies nihil est. Dum versas te, nox fit. 
 > Itaque nihil est melius quam de cubiculo 
@@ -353,4 +360,4 @@ summary(cars)
 @werber2010ultime
 @Drillo2010
 @MarcusAurelius
-
+@Petronius
