@@ -72,6 +72,9 @@ A **fun fact** about me is that I am super clumsy, I have the ability to drop ev
 
 ### Laura
 
+I am Laura and I come from a small village near Como, in the North of Italy. 
+I did my Bachelor in Economics at Università della Svizzera Italiana in Lugano. Now I am attending the second year of Master in Management at HEC Lausanne.
+
 ![Lavaux Tour](Laura_photo.jpg)
 
 
@@ -87,7 +90,7 @@ A **fun fact** about me is that when I travel I found always (always!!) one of t
 >
 > <p style="text-align:right;"><cite> Marcus Aurelius </cite></p>
 
-I am attending the second year of the Master in Management, and this is my timetable for this semester:
+This is my timetable for this semester:
 
 Subject | Timetable 
 ---|---
@@ -252,9 +255,7 @@ $$\mathbb{E} \left[ var \left\{ \boldsymbol{\upsilon_1}
 = \mathrm{var} \{ \textbf{v}_1 (\boldsymbol{\theta}_0 ,n )\} + \mathcal{O_p}(n^{-2})$$
 
 
-5. Include the following in-line equation:
-
-$\large{ \mathbf{A} \equiv [ a_{i,j}]_{i,j = 1, ... , p} }$
+5. Include the following in-line equation: $\large{ \mathbf{A} \equiv [ a_{i,j}]_{i,j = 1, ... , p} }$
 
 6. Include the following text in blue: "V&eacute;rit&eacute; dans un temps, erreur
 dans un autre", Charles de Montesquieu
